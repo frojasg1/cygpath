@@ -1,2 +1,2 @@
 # cygpath
-Java library for providing cygpath functionality
+Python and Java library for providing cygpath functionality
