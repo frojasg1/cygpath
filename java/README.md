@@ -21,7 +21,9 @@
     - [Setting the environment](#setting-the-environment)
       * [Library custom variables](#library-custom-variables)
       * [A way to automate the environment setting](#a-way-to-automate-the-environment-setting)
-      * [How to use the default facade library in your Java app](#how-to-use-the-default-facade-library-in-your-java-app)
+    - [How to use the library default facade in your Java app](#how-to-use-the-library-default-facade-in-your-java-app)
+
+  * [Running the examples for all foreseen system types](#running-the-examples-for-all-foreseen-system-types)
 
 ## Java version
 
@@ -76,7 +78,7 @@ There is one default facade implementation which tries to infer the type of syst
 
 [cygpath emulation implementations](#cygpath-emulation-implementations)
 
-[facade implementations](#facade-implementations)
+[facade default implementations](#facade-default-implementations)
 
 
 ### cygpath emulation implementations
@@ -121,7 +123,13 @@ If it is not set, the library tries to continue, making the presumption that the
 
 ## Usage
 
+  - [Setting the environment](#setting-the-environment)
+    * [Library custom variables](#library-custom-variables)
+    * [A way to automate the environment setting](#a-way-to-automate-the-environment-setting)
+  - [How to use the library default facade in your Java app](#how-to-use-the-library-default-facade-in-your-java-app)
+
 Previously to be able to use the library, you will have to prepare your environment, just as it is [explained here](#setting-the-environment)
+
 
 ### Setting the environment
 
@@ -177,7 +185,7 @@ $env:UNAME = ""
 ```
 
 
-#### How to use the default facade library in your Java app
+### How to use the library default facade in your Java app
 
 The library functionality is wrapped in a default Singleton class.
 

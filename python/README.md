@@ -22,7 +22,7 @@
       * [Library custom variables](#library-custom-variables)
       * [PYTHONPATH environment variable](#pythonpath-environment-variable)
       * [A way to automate the environment setting](#a-way-to-automate-the-environment-setting)
-      * [How to use the facade library in your Python app](#how-to-use-the-facade-library-in-your-python-app)
+    - [How to use the facade library in your Python app](#how-to-use-the-facade-library-in-your-python-app)
 
   * [Running the examples for all foreseen system types](#running-the-examples-for-all-foreseen-system-types)
 
@@ -140,6 +140,13 @@ repo_root/python/lib_src/facade/transparent/sys_path_wrapper.py
 
 ## Usage
 
+  - [Setting the environment](#setting-the-environment)
+    * [Library custom variables](#library-custom-variables)
+    * [PYTHONPATH environment variable](#pythonpath-environment-variable)
+    * [A way to automate the environment setting](#a-way-to-automate-the-environment-setting)
+  - [How to use the facade library in your Python app](#how-to-use-the-facade-library-in-your-python-app)
+
+
 Previously to be able to use the library, you will have to prepare your environment, just as it is [explained here](#setting-the-environment)
 
 ### Setting the environment
@@ -210,7 +217,7 @@ repo_root/python/examples_src/pure_unix_like_environment/doExports.sh
 repo_root/python/examples_src/pure_windows_environment/example.ps1
 ```
 
-#### How to use the facade library in your Python app
+### How to use the facade library in your Python app
 
 For using the library, you first should set the environment as explained at the above sections (which adds the chosen facade implementation directory in the PYTHONPATH env variable)
 
