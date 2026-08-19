@@ -5,7 +5,7 @@ function doExports()
 {
     export ROOT_PATH_WINLIKE="D:\\cygwin64"
     export C_ROOT_PATH_UNIXLIKE="/c/"
-    export UNAME=""
+    export UNAME="Windows"
 }
 
 

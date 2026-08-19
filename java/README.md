@@ -156,7 +156,7 @@ export UNAME="$( uname -a )"
 
 For pure **windows** environments, **UNAME** should be set with an empty value, as for instance, in a power shell script (?):
 ```console
-$env:UNAME = ""
+$env:UNAME = "Windows"
 ```
 
 You do not have to know the literal values with which to set those variables. [See how to](#a-way-to-automate-the-environment-setting)

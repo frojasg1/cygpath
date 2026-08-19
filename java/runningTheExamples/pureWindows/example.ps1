@@ -7,7 +7,7 @@ function DoExports {
 
     $env:ROOT_PATH_WINLIKE = "D:\cygwin64"
     $env:C_ROOT_PATH_UNIXLIKE = "/c/"
-    $env:UNAME = ""
+    $env:UNAME = "Windows"
 
     Get-ChildItem Env: | Where-Object { $_.Name -match "^(UNAME|ROOT_PATH_WINLIKE|C_ROOT_PATH_UNIXLIKE)$" } | ForEach-Object {
         Write-Host "$($_.Name)=$($_.Value)"

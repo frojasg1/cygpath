@@ -82,7 +82,7 @@ public class SystemGuesser {
 
     protected SystemType obtainSystemTypeFromUname(String uname) {
         SystemType result = SystemTypeEnum.UNIX_LIKE;
-        if (uname.trim().isEmpty()) {
+        if (uname.trim().toLowerCase().startsWith("win")) {
             result = SystemTypeEnum.WINDOWS;
         }
         return result;

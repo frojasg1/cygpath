@@ -32,10 +32,10 @@
 
 package com.frojasg1.cygpath.facade;
 
-public interface SysPathWrapper {
+import com.frojasg1.cygpath.BaseCygpath;
 
-    public String win2posix(String myPath, boolean absolute);
-    public String posix2win(String myPath, boolean absolute);
+public interface SysPathWrapper extends BaseCygpath {
+
     public String hostToSysPath(String hostLikePath, boolean absolute);
     public String sysToHostPath(String systemLikePath, boolean absolute);
     public String javaToSysPath(String javaLikePath, boolean absolute);
