@@ -235,7 +235,9 @@ def sys_to_python_path(system_like_path: str, absolute: bool=False) -> str:
 ```
 
 There are some different functions available (which might behave differently depending on the implementation you chose)
+
 All functions are expected to be idempotent.
+
 - **win2posix**. For converting a windows like path into a unix like path compatible with your system.
 - **posix2win**. For converting a unix like path compatible with your system into a windows like path.
 - **host_to_sys_path**. For converting a host like path (windows in case of cygwin or git-bash, or no change otherwise) into a system like path (expected to be unix like) compatible with your system.

@@ -210,6 +210,7 @@ Just like this:
 ```
 
 There are some different functions available (which might behave differently depending on the implementation you chose)
+
 All functions are expected to be idempotent.
 - **win2posix**. For converting a windows like path into a unix like path compatible with your system. wrap of cygpath emulation
 - **posix2win**. For converting a unix like path compatible with your system into a windows like path. wrap of cygpath emulation
